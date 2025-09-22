@@ -1,0 +1,57 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "./",
+  "author": "_RR_",
+  "dependencies": {
+    "@gsap/react": "^2.1.0",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.6.1",
+    "@testing-library/jest-dom": "^6.8.0",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "normalize.css": "^8.0.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-scripts": "5.0.1",
+    "swiper": "^12.0.2",
+    "typescript": "^5.9.2"
+  },
+  "scripts": {
+    "build:dev": "webpack --env mode=development",
+    "build:dev:watch": "webpack serve --env mode=development",
+    "build:prod": "webpack --env mode=production"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "devDependencies": {
+    "@types/swiper": "^6.0.0",
+    "@types/webpack": "^5.28.5",
+    "@types/webpack-dev-server": "^4.7.2",
+    "css-loader": "7.1.2",
+    "dts-css-modules-loader": "^2.0.1",
+    "eslint-webpack-plugin": "^5.0.2",
+    "gh-pages": "^6.1.1",
+    "gsap": "^3.13.0",
+    "html-webpack-plugin": "^5.6.4",
+    "mini-css-extract-plugin": "^2.9.4",
+    "react-refresh-typescript": "^2.0.10",
+    "react-refresh-webpack-plugin": "^0.1.0",
+    "sass": "^1.93.0",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.4",
+    "ts-node": "^10.9.2",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
