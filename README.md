@@ -45,4 +45,4 @@ build/index.html
   - Лоадер `dts-css-modules-loader` для генерации `.d.ts` заголовков селекторов стилей из `.SCSS` при сборке (SCSS to TS)
 
 ## Контакты
-@Rzyx1999
+Telegram: @Rzyx1999
